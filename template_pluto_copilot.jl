@@ -56,7 +56,7 @@ md"""
 # ╔═╡ 60859a39-519d-4a53-9160-932b793f9357
 begin
 	    # loading notebook content with clean_code so you can also ask questions regarding this notebook
-	    notebook_content = read("template.jl", String)
+	    notebook_content = read("template_pluto_copilot.jl", String)
 	    
 	    # Filter out ALL Pluto-specific lines
 	    lines = split(notebook_content, '\n')
